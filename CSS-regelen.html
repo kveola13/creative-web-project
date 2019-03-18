@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html>
+
+<head>
+	<title>Tre måter å legge til css</title>
+	<!-- Alternativ 3: External CSS-->
+	<link type="text/css" rel="stylesheet"
+	href="stil.css"/>
+	<!-- Alternativ 2: Internal css-->	
+
+	<style type="text/css">
+	p{
+		color:red;
+		
+	}	
+	.small {
+	
+	}
+	.bigheader{
+	
+	}
+	</style>
+
+	<!-- 
+		Fordel internal vs inline
+	
+
+		Kan nå flere elementer med en velger
+
+	-->
+
+</head>
+
+<body>
+
+<!--Alternativ 1: Inline CSS-->
+<h1 style="color: blue;">Overskrift</h1>
+<h2>Underoverskrift 1</h2>
+<p>Et avsnitt med noe tekst 1</p>
+
+
+<h1 style="color: blue;"> Overskrift 2</h1>
+
+<h2>Underoverskrift 2</h2>
+<p>Et avsnitt med noe tekst 2</p>
+
+<h1 style="color: blue;">Overskrift 3</h1>
+
+<h2>Underoverskrift 3</h2>
+<p>Et avsnitt med noe tekst 3</p>
+
+<!--
+Ulemper:
+Repetisjon
+Rotete (kombinasjon av forskjellige koder)
+
+
+-->
+<!-- Ekstern -> Internal -> Inline
+	h2: blå -> h2: gule -> h2: rød
+	Fra venstre til høyre er prioritetsrekken, i denne vinner rød, så gul, så blå.
+	-->
+
+
+</body>
+
+</html>
